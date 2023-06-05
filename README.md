@@ -6,9 +6,12 @@ Currently it supports bit-banging several ATMEL/Microchip 8-bit AVR chips throug
 It should compile and work on Linux, Windows 32-bit and 64-bits.
 
 To compile natively, do:
+
+```
 libtoolize
 aclocal
 autoconf
 automake --add-missing
 ./configure
 make
+```
