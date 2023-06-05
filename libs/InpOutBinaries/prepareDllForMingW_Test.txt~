@@ -1,0 +1,2 @@
+gendef inpout32.dll inpout32.def
+i686-w64-mingw32-dlltool -D inpout32.dll -d inpout32.def -l libinpout32.a
